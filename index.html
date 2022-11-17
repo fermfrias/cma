@@ -8,13 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="planta de tratamiento, agua residual, agua" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="./Assets/LOGO CMA -03.png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Asap:wght@400;600&family=Noto+Sans+Mono&family=Poppins:wght@300;400;500;600&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src=" https://kit.fontawesome.com/6c8ad819b9.js" crossorigin="anonymous">
+    </script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="Stylesheet" href="./style.css">
+    <script src="./index.js"></script>
     <title>Concesionaria Mexicana del Agua</title>
 </head>
 
@@ -34,16 +39,16 @@
                             <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./Pages/about.html">Quienes somos</a>
+                            <a class="nav-link" aria-current="page" href="#quienes">Quienes somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./Pages/portfolio.html">Productos</a>
+                            <a class="nav-link" aria-current="page" href="#productos">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./Pages/shop.html">Nuestros clientes</a>
+                            <a class="nav-link" aria-current="page" href="#clientes">Nuestros clientes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./Pages/contact.html">Contacto</a>
+                            <a class="nav-link" aria-current="page" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -70,7 +75,7 @@
             </aside>
         </div>
 
-        <div class="sobrenosotros">
+        <div class="sobrenosotros" id="quienes">
             <div class="Cajaazul">
                 <section class="Numeralia">
                     <section class="gridnumeralia">
@@ -78,8 +83,12 @@
                             <div class="veinti">
                                 <p> 23 </p>
                             </div>
-                            <p> años de experiencia</p>
+                            <div class="contenedorexperiencia">
+                                <p> años de </p>
+                                <h3>experiencia</h3>
+                            </div>
                         </div>
+                
                         <div class="plantas">
                             <p>Más de 450 plantas instaladas y sirviendo eficientemente</p>
                         </div>
@@ -88,66 +97,147 @@
                         </div>
                     </section>
                 </section>
+                <section class="imagen-nosotros">
+                    <img src="./Assets/Azul -11.png">
+                </section>
                 <aside class="textocma">
                     <h3>
                         Concesionaria</br>
                         Mexicana del agua
                     </h3>
                     <p>
-                        Somos una <strong> empresa de clase mundial </strong>con
-                        el respaldo internacional de nuestros
-                        asociados y tecnólogos europeos: <strong> Novhidro, Microcom, Hidroconta, Tecno Converting y
-                            Toro
-                            Equipment.</strong>
-
-                        Nuestra probada experiencia como especialistas en <strong> TRATAMIENTO DE AGUAS
-                            RESIDUALES,</strong> nos coloca a la vanguardia de la industria con <strong> la tecnología
-                            más actualizada
-                            disponible en el ramo.</strong>
+                        Somos una empresa de clase mundial especializada en <strong> suministro de equipos, diseño,
+                            construcción y puesta en marcha de plantas de tratamiento de aguas residuales.</strong>
+                        Somos distribuidores exclusivos para la república mexicana de las marcas microcom, hidroconta,
+                        bidatek y tecnoconverting. Empresas mediante las cuales ofrecemos soluciones para la gestión
+                        avanzada de redes de agua mediante telegestión,sectorización y telemedición.
                     </p>
                 </aside>
             </div>
         </div>
         <div class="cajadatos">
             <section class="datosCMA">
+
                 <div class="dato-izquierda">
                     <img src="./Assets/Frameizquierdo.png" alt""">
                     <p>Contamos con tratamientos Biológicos y Físico Químicos para la <strong> depuración y
                             reciclaje de Aguas Residuales </strong></p>
                 </div>
                 <div class="datocentro">
-                    <p>EN CMA ESTAMOS </br> COMPROMETIDOS </br> CON EL USO MUNDIAL DEL AGUA</p>
+                    <h3> Soluciones para telecontrol y telemetría </h3> <p> empleando las redes de telefonía móvil GSM como medio
+                        de comunicación </p>
                 </div>
                 <div class="dato-derecha">
                     <img src="./Assets/Framederecho.png" alt""">
-                    <p> <strong> Diseñamos, fabricamos, construimos y operamos, </strong> todo tipo de Plantas de
-                        Tratamiento de Aguas Residuales.</p>
+                    <p> Distribuimos equipos para el control de redes hidráulicas de riego, abastecimiento y para
+                        mejorar el rendimiento de tus instalaciones contando con las mejores tecnologías para la
+                        digitalización de las redes.
+                    </p>
                 </div>
             </section>
         </div>
+        <div class="slider-area-asociados">
+            <div class="containerslider-asociados">
+                <div class="slider-asociados">
+                    <div class="item-asociados">
+                        <img src="./Assets/Asociados/asociados-07.png" height="90" width=auto>
+                    </div>
+                    <div class="item-asociados">
+                        <img src="./Assets/Asociados/asociados-08.png" height="90" width=auto>
+                    </div>
+                    <div class="item-asociados">
+                        <img src="./Assets/Asociados/asociados-09.png" height="90" width=auto>
+                    </div>
+                    <div class="item-asociados">
+                        <img src="./Assets/Asociados/asociados-10.png" height="90" width=auto>
+                    </div>
+                </div>
+            </div>
+        </div>
         <section class="parallax">
         </section>
-        <section class="tituloproductos">
+        <section class="tituloproductos" id="productos">
             <h2>Productos </h2>
         </section>
-        <section class="galeria">
-            <div class="row">
-                <div class="column">
-                    <img src="./Assets/Productos/12.1 Demeěter 4H.v2[76].png" alt="">
-                    <img src="./Assets/Productos/Foto de FERNANDA" alt="">
-                    <img src="./Assets/Productos/HERMES (S)" alt="">
+        <section class="productos">
+            <div class="gallery-container">
+                <div class="gallery-item post">
+                    <a href="https://www.microcom.es/nemos-n200-plus.php">
+                        <img src="./Assets/Productos/Productos -11.png" alt="" class="gallery__img foto">
+                        <footer class="textofoto">
+                            <h2 class="gallery__title">NEMOS N200+ </h2>
+                        </footer>
+                    </a>
                 </div>
-                <div class="column">
-                    <img src="./Assets/Productos/NEMOS (1)" alt="">
-                    <img src="./Assets/Productos/NEMOS 2" alt="">
-                    <img src="./Assets/Productos/NEMOS N100" alt="">
+                <div class="gallery-item post">
+                    <a href="https://www.microcom.es/nemos-n100.php">
+                        <img src="./Assets/Productos/Productos -12.png" alt="" class="gallery__img foto">
+                        <footer class="textofoto">
+                            <h2 class="gallery__title">NEMOS N100+ </h2>
+                        </footer>
+                    </a>
                 </div>
-
-                <div class="column">
-                    <img src="./Assets/Productos/12.1 Demeěter 4H.v2[76].png" alt="">
-                    <img src="./Assets/Productos/Foto de FERNANDA" alt="">
-                    <img src="./Assets/Productos/HERMES (S)" alt="">
+                <div class="gallery-item post">
+                    <a href="https://hidroconta.com/producto/demeter-4h/">
+                        <img src="./Assets/Productos/Productos -13.png" alt="" class="gallery__img foto">
+                        <footer class="textofoto">
+                            <h2 class="gallery__title">DEMÉTER 4H (Hidroconta) </h2>
+                        </footer>
+                    </a>
                 </div>
+                <div class="gallery-item post">
+                    <a href="https://www.microcom.es/hermes-m102.php">
+                        <img src="./Assets/Productos/Productos -14.png" alt="" class="gallery__img foto">
+                        <footer class="textofoto">
+                            <h2 class="gallery__title">Hermes M102 (Microcom) </h2>
+                        </footer>
+                    </a>
+                </div>
+                <div class="gallery-item post">
+                    <a href="https://hidroconta.com/producto/iris-amr">
+                        <img src="./Assets/Productos/Productos -15.png" alt="" class="gallery__img foto">
+                        <footer class="textofoto">
+                            <h2 class="gallery__title">EMISOR DE PULSOS “IRIS” </br> (hidroconta)</h2>
+                        </footer>
+                    </a>
+                </div>
+                <div class="gallery-item post">
+                    <a href="https://www.bidatek.com/es/plantas-modulares-mbr/"></a>
+                    <img src="./Assets/Productos/Productos -16.png" alt="" class="gallery__img foto">
+                    <footer class="textofoto">
+                        <h2 class="gallery__title">Plantas de agua residual </br> tecnología MBR(bidatek)</h2>
+                    </footer>
+                </div>
+                <div class="gallery-item post">
+                    <a href="https://www.tecnoconverting.es/rascador-manowar/"></a>
+                    <img src="./Assets/Productos/Productos -17.png" alt="" class="gallery__img foto">
+                    <footer class="textofoto">
+                        <h2 class="gallery__title">Rascador Circular Manowar </br> (TECNOCONVERTING)</h2>
+                    </footer>
+                </div>
+                <div class="gallery-item post">
+                    <a href="https://www.bidatek.com/es/plantas-contenerizadas-mbbr/"></a>
+                    <img src="./Assets/Productos/Productos -18.png" alt="" class="gallery__img foto">
+                    <footer class="textofoto">
+                        <h2 class="gallery__title"> Plantas de agua residual tecnología MBBR.(bidatek) </h2>
+                    </footer>
+                </div>
+                <div class="gallery-item post">
+                    <a href="https://www.tecnoconverting.es/productos/decantadores-compactos-en-acero-
+                    inoxidable-y-en-polipropileno/"></a>
+                    <img src="./Assets/Productos/Productos -19.png" alt="" class="gallery__img foto">
+                    <footer class="textofoto">
+                        <h2 class="gallery__title">Decantadores Compactos (TECNOCONVERTING)</h2>
+                    </footer>
+                </div>
+                <div class="gallery-item post">
+                    <a href="https://www.tecnoconverting.es/productos/rascador-rectangular/"></a>
+                    <img src="./Assets/Productos/Productos -20.png" alt="" class="gallery__img foto">
+                    <footer class="textofoto">
+                        <h2 class="gallery__title"> Rascador Rectangular Tecnoscraper (TECNOCONVERTING)</h2>
+                    </footer>
+                </div>
+            </div>
         </section>
         <div class="video">
             <div class="Cajavideo">
@@ -161,54 +251,221 @@
                         Mexicana del agua
                     </h3>
                     <p>
-                        Somos una <strong> empresa de clase mundial </strong>con
-                        el respaldo internacional de nuestros
-                        asociados y tecnólogos europeos: <strong> Novhidro, Microcom, Hidroconta, Tecno Converting y
-                            Toro
-                            Equipment.</strong>
-
-                        Nuestra probada experiencia como especialistas en <strong> TRATAMIENTO DE AGUAS
-                            RESIDUALES,</strong> nos coloca a la vanguardia de la industria con <strong> la tecnología
-                            más actualizada
-                            disponible en el ramo.</strong>
+                        Somos una empresa de clase mundial especializada en <strong> suministro de equipos, diseño,
+                            construcción y puesta en marcha de plantas de tratamiento de aguas residuales.</strong>
+                        Somos distribuidores exclusivos para la república mexicana de las
+                        marcas;microcom,hidroconta,bidatek y tecnoconverting empresas mediante las cuales ofrecemos
+                        soluciones para la gestión avanzada de redes de agua mediante telegestión,sectorización y
+                        telemedición.
                     </p>
                 </aside>
             </div>
         </div>
         <section class="parallax-contacto">
         </section>
-    </main>
-    <div class="banner-contacto" alt="">
-        <aside class="fotocontacto">
-            <img src="./Assets/posicion video.png" alt="">
-        </aside>
-        <section class="Formulario">
-            <form>
-                <fieldset>
-                    <legend>Contáctanos</legend>
-                    <p type="Nombre"> <input placeholder="Nombre completo"></p>
-                    <p type="email:"> <input placeholder="Correo electrónico"></p>
-                    <p type="Mensaje:"> <input placeholder="Cuentanos más sobre tu proyecto"></p>
-                    <button> Enviar </button>
-                </fieldset>
-            </form>
+        <div class="carrousel-proyectos">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Assets/carrousel/Carrousel -03.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/carrousel/Carrousel -04.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/carrousel/Carrousel -05.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/carrousel/Carrousel -0.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev" id="carrousel-control">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next" id="carrousel-control">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <section class="tituloclientes" id="clientes">
+            <h2>Nuestros clientes </h2>
         </section>
-    </div>
+        <div class="container">
+            <table class="table table-striped table-bordered table-responsive">
+                <thead class="table align-middle table-primary">
+                    <tr>
+                        <th> Proyecto </th>
+                        <th> Ubicación </th>
+                        <th> Tipo </th>
+                        <th> Capacidad </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table align-middle">
+                        <td>Transportes SWIFT</td>
+                        <td>Nuevo Laredo, Tamaulipas</td>
+                        <td>Planta de tratamiento de aguas residuales</td>
+                        <td>24,000 L.P.D.</td>
+                    </tr>
+                    <tr class="table align-middle">
+                        <td>Nutrimentos Agropecuarios Purina S.A. de C.V.</td>
+                        <td>Irapuato, Guanajuato</td>
+                        <td> Tres plantas de tratamiento de aguas residuales</td>
+                        <td> 6,000 L.P.D. y 2,000 L.P.D.).</td>
+                    </tr>
+                    <tr class="table align-middle">
+                        <td>Compañía Manufactuera Asturias</td>
+                        <td>Celaya, Guanajuato</td>
+                        <td>Planta de tratamiento de aguas residuales</td>
+                        <td>6,000 L.P.D. </td>
+                    </tr>
+                    <tr class="table align-middle">
+                        <td>Grupo xcaret</td>
+                        <td>Playa del Carmen, Q.Roo </td>
+                        <td>Planta de tratamiento de aguas residuales PTAR</td>
+                        <td>12,000 L.P.D.</td>
+                    </tr>
+                    <tr class="table align-middle">
+                        <td>Grupo xcaret</td>
+                        <td>Playa del Carmen, Q.Roo </td>
+                        <td>Planta desaladora de agua de mar</td>
+                        <td>93 m3 por día </td>
+                    </tr>
+                    <tr class="table align-middle">
+                        <td>Flex and gate</td>
+                        <td>Hermosillo, Sonora </td>
+                        <td>Planta de tratamiento de aguas residuales</td>
+                        <td>50,000 L.P.D. </td>
+                    </tr>
+                    <tr class="table align-middle">
+                        <td>Gigante verde S. de R.L. de C.V.</td>
+                        <td>-- </td>
+                        <td>Planta de tratamiento de aguas residuales</td>
+                        <td>40,000 L.P.D. </td>
+                    </tr>
+                    <tr class="table align-middle">
+                        <td>Clinica Mayo</td>
+                        <td>Ciudad de Panamá, Panamá </td>
+                        <td>Planta de tratamiento de aguas residuales</td>
+                        <td>2.0 L.P.S. </td>
+                    </tr>
+                    <tr class="table align-middle">
+                        <td>Expor San Antonio S.A. de C.V.</td>
+                        <td>Villagrán, Guanajuato </td>
+                        <td>Planta de tratamiento de aguas residuales</td>
+                        <td>50,000 L.P.D.</td>
+                    </tr class="table align-middle">
+                    <td>Hospital MAC Los Mochis</td>
+                    <td>Los Mochis, Sinaloa </td>
+                    <td>Planta de tratamiento de aguas residuales</td>
+                    <td>1.5 L.P.S.</td>
+                </tbody>
+            </table>
+        </div>
+        <div class="slider-area">
+            <div class="containerslider">
+                <div class="slider">
+                    <div class="item">
+                        <img src="./Assets/Clientes/Clientes-02.png" height="130" width=auto>
+                    </div>
+                    <div class="item">
+                        <img src="./Assets/Clientes/Clientes-03.png" height="130" width=auto>
+                    </div>
+                    <div class="item">
+                        <img src="./Assets/Clientes/Clientes-04.png" height="130" width=auto>
+                    </div>
+                    <div class="item">
+                        <img src="./Assets/Clientes/Clientes-05.png" height="130" width=auto>
+                    </div>
+                    <div class="item">
+                        <img src="./Assets/Clientes/Clientes-06.png" height="130" width=auto>
+                    </div>
+                    <div class="item">
+                        <img src="./Assets/Clientes/Clientes-07.png" height="130" width=auto>
+                    </div>
+                    <div class="item">
+                        <img src="./Assets/Clientes/Clientes-08.png" height="130" width=auto>
+                    </div>
+                    <div class="item">
+                        <img src="./Assets/Clientes/Clientes-09.png" height="130" width=auto>
+                    </div>
+                    <div class="item">
+                        <img src="./Assets/Clientes/Clientes-10.png" height="130" width=auto>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="descargacv">
+            <h2>Consulta nuestro curriculum completo</h2>
+            <button class="buttondescarga">
+                <a href="./cv.html">descargar</a>
+            </button>
+        </section>
+
+        <div class="banner-contacto" alt="" id="contacto">
+            <aside class="fotocontacto">
+                <img src="./Assets/Contacto.jpg" alt="">
+            </aside>
+            <section class="Formulario">
+                <form>
+                    <fieldset>
+                        <legend>Contáctanos</legend>
+                        <p type="Nombre"> <input placeholder="Nombre completo"></p>
+                        <p type="email:"> <input placeholder="Correo electrónico"></p>
+                        <p type="Mensaje:"> <input placeholder="Cuentanos más sobre tu proyecto"></p>
+                        <button> Enviar </button>
+                    </fieldset>
+                </form>
+            </section>
+        </div>
+    </main>
     <footer>
         <div class="Logo-footer-cma">
             <img src="./Assets/LOGO CMA -02.png" alt="">
         </div>
-        <ul class="navegacionfooter">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./about.html">Sobre Nosotros</a></li>
-            <li><a href="../Pages/portfolio.html">Productos</a></li>
-            <li><a href="../Pages/shop.html">Nuestros Clientes</a></li>
-            <li><a href="../Pages/contact.html">Contacto</a></li>
-        </ul>
+        <div class="slider-area-asociados-footer">
+            <div class="slider-asociados-footer">
+                <div class="item-asociados-footer">
+                    <img src="./Assets/Asociados/asociados-07.png">
+                </div>
+                <div class="item-asociados-footer">
+                    <img src="./Assets/Asociados/asociados-08.png">
+                </div>
+                <div class="item-asociados-footer">
+                    <img src="./Assets/Asociados/asociados-09.png">
+                </div>
+                <div class="item-asociados-footer">
+                    <img src="./Assets/Asociados/asociados-10.png">
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+    <link rel="Stylesheet" href="./style.css">
+    <script src="index.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>

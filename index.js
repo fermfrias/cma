@@ -1,6 +1,11 @@
-const navToggle = document.querySelector(".nav-toggle")
-const navMenu = document.querySelector(".nav-menu")
+const prev = document.querySelector('.prev')
+const next = document.querySelector('.next')
+const slider = document.querySelector('.slider')
 
-navToggle.addEventListener("click", () =>{
-    navMenu.classList.toggle("nav-menu_visible")
+prev.addEventListener('click', () => {
+    slider.scrollLeft -= 300
+})
+
+next.addEventListener('click', () => {
+    slider.scrollLeft += 300
 })
